@@ -1,0 +1,173 @@
+.navbar-container {
+  height: 10vh;
+  background-color: orange;
+  color: rgb(255, 255, 255);
+  padding: 1% 0 0 4%;
+}
+
+.navbar-container h3 {
+  margin: 0%;
+  font-size: 1.5rem;
+}
+
+.display_columns {
+  display: flex;
+}
+
+.sidebar-container {
+  width: 20%;
+  height: 87vh;
+  background-color: rgb(0, 141, 196);
+  color: rgb(190, 188, 188);
+  text-align: left;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8%;
+  gap: 5%;
+}
+
+.sidebar-container div {
+  margin: 0;
+  cursor: pointer;
+
+  width: 50%;
+}
+
+.main-container {
+  text-align: center;
+  width: 75%;
+  padding: 2%;
+}
+
+.main-container h5 {
+  text-align: left;
+}
+
+.main {
+  width: 80%;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.table-upper-div {
+  border: 1px solid rgb(223, 223, 223);
+  border-bottom: 0;
+}
+
+.user-table {
+    
+}
+
+.user-table i {
+    padding-right: 5px;
+}
+
+.save-button {
+  width: 80%;
+  height: 6vh;
+
+  background-color: rgb(255, 121, 11);
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.th-read-data {
+  color: rgb(0, 128, 68) !important;
+}
+
+.th-write-data {
+  color: rgb(0, 140, 255) !important;
+}
+
+.th-delete-data {
+  color: rgb(223, 1, 1) !important;
+}
+
+.th-actions {
+  color: rgb(255, 94, 0) !important;
+}
+
+.td-role-name {
+  font-size: 1.1rem;
+}
+
+.td-permissions-div {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar-container {
+    height: 7vh;
+    padding-top: 15px !important;
+  }
+
+  .navbar-container h3 {
+    margin: 0%;
+    font-size: 1.3rem;
+  }
+
+  .display_columns {
+    display: flex;
+  }
+
+  .sidebar-container {
+    width: 40%;
+    height: 87vh;
+    text-align: left;
+    padding-top: 2%;
+
+    padding-left: 8%;
+    gap: 5%;
+    display: none;
+  }
+
+  .sidebar-container div {
+    margin: 0;
+    cursor: pointer;
+
+    width: 50%;
+  }
+
+  .main-container {
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+  }
+
+  .main-container h5 {
+    text-align: left;
+  }
+
+  .main {
+    width: 80%;
+  }
+
+  .main-title {
+    text-align: center;
+  }
+
+  .table-upper-div {
+    width: 102.9%;
+    border: 1px solid rgb(223, 223, 223);
+    border-bottom: 0;
+  }
+
+  .save-button {
+    width: 100%;
+    height: 6vh;
+    font-size: 0.9rem;
+  }
+
+  .td-role-name {
+    font-size: 1rem;
+  }
+
+  .td-permissions-div {
+    font-size: 0.9rem;
+  }
+}
